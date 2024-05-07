@@ -1,0 +1,36 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Início cabeçalho */
+.topo{
+  width: 100%;
+  position: fixed;
+  background-color: #604829;
+  z-index:1;
+}
+
+.topo img {
+  width: 100px;
+  position: relative;
+  left: 15%;
+}
+
+.topo div {
+  position: absolute;
+  top:35%;
+  right:15%;
+}
+.topo div a {
+  margin-right: 20px;
+  color:#c4a47c;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-shadow: 3px 5px 2px #000000;
+}
+
+/* Fim do cabeçalho */
