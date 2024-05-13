@@ -31,6 +31,42 @@
   letter-spacing: 2px;
   font-weight: 700;
   text-shadow: 3px 5px 2px #000000;
+  font-family: "Osvald", sans-serif;
 }
+/* Container Geral */
+
+.container-parallax1 {
+  position: relative;
+  background: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Parallax imagem */
+.container-parallax1 {
+  background-image: url("/img/parallax-imagem1.png");
+  height: 100vh;
+}
+/*  */
+.container-parallax1 h1 {
+  top:45%;
+  right: 0;
+  left: 0%;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Fraunces", serif;
+  font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Fim do cabeçalho */
