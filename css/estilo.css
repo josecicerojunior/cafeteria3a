@@ -36,7 +36,9 @@
 /* Container Geral */
 
 .container-parallax1,
-.container-parallax2 {
+.container-parallax2,
+.container-parallax3
+ {
   position: relative;
   background: center;
   background-size: cover;
@@ -52,8 +54,11 @@
   background-image: url("/img/parallax-imagem2.jpg");
   height: 50vh;
 }
-
-
+/* Parallax imagem 3 */
+.container-parallax3{
+  background-image: url("/img/parallax-imagem3.jpg");
+  height: 50vh;
+}
 .container-parallax1 h1 {
   top:45%;
   right: 0;
