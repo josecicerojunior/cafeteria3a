@@ -35,18 +35,25 @@
 }
 /* Container Geral */
 
-.container-parallax1 {
+.container-parallax1,
+.container-parallax2 {
   position: relative;
   background: center;
   background-size: cover;
   background-attachment: fixed;
 }
-/* Parallax imagem */
+/* Parallax imagem 1 */
 .container-parallax1 {
   background-image: url("/img/parallax-imagem1.png");
   height: 100vh;
 }
-/*  */
+/* Parallax imagem 2  */
+.container-parallax2 {
+  background-image: url("/img/parallax-imagem2.jpg");
+  height: 50vh;
+}
+
+
 .container-parallax1 h1 {
   top:45%;
   right: 0;
