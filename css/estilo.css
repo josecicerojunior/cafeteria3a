@@ -70,7 +70,8 @@
   font-family: "Fraunces", serif;
   font-size: 100px;
 }
-.container-parallax2 h3 {
+.container-parallax2 h3, 
+.container-parallax3 h3 {
   width: 500px;
   padding: 10px;
   position:relative;
