@@ -37,7 +37,8 @@
 
 .container-parallax1,
 .container-parallax2,
-.container-parallax3
+.container-parallax3,
+.container-parallax4
  {
   position: relative;
   background: center;
@@ -58,6 +59,10 @@
 .container-parallax3{
   background-image: url("/img/parallax-imagem3.jpg");
   height: 50vh;
+}
+.container-parallax4{
+  background-image: url("/img/parallax-imagem4.png");
+  height: 100vh;
 }
 .container-parallax1 h1 {
   top:45%;
@@ -115,7 +120,23 @@
   font-family: "Oswald", sans-serif;
   color: #c4a47c;
 }
+/* SEÇÃO CONTATOS */
 
+.container-parallax4 h2 {
+  width: 500px;
+  padding: 10px;
+  position:relative;
+  top: 10%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-size: 24px;
+  font-family: "Oswald", serif;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: #604829;
+}
 
 
 
